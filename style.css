@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to left, rgba(94, 146, 135, 0.603), rgba(133, 114, 146, 0.808));
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 10vh;
+}
+
+.contenedor_header, .contenedor_titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+h1 {
+    color: rgb(43, 21, 14);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 80vw;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+main .main_form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_text {
+    width: 70%;
+    height: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.contenedor_botones input {
+    background-color: rgba(143, 85, 85, 0.808);
+    color: white;
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 1rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.contenedor_botones input:hover {
+    background-color: rgba(219, 49, 86, 0.808);
+    cursor: pointer;
+}

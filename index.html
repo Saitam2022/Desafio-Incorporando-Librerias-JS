@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--HEAD-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/music-note.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<!--FIN HEAD-->
+<!--BODY-->
+
+<body>
+    <main>
+        <h1 id="titulo">Desafío Incorporando Librerias - JavaScript</h1>
+        <p>CoderHouse</p>
+        <div class="main_titulo">
+            <h3> Agregar producto </h1>
+        </div>
+        <div class="main_form">
+            <form id="formulario_producto">
+                <label> Nombre </label>
+                <input class="form_text" type="text" name="nombre" id="form_nombre"
+                    placeholder="Ingrese nombre del producto">
+                <label> Descripción </label>
+                <input class="form_text" type="text" name="descripcion" id="form_descripcion"
+                    placeholder="Ingrese la descripcion">
+                <label> Unidades </label>
+                <input class="form_text" type="text" name="cantidad" id="form_cantidad"
+                    placeholder="Ingrese la cantidad de unidades">
+                <label> Precio </label>
+                <input class="form_text" type="text" name="precio" id="form_precio"
+                    placeholder="Ingrese el precio de costo del producto">
+                <div class="contenedor_botones">
+                    <input type="submit" value="Guardar" id="btnSubmit">
+                    <input type="button" value="Mostrar Todos" id="btnMostrar">
+                    <input type="button" value="Eliminar Producto(s)" id="btnEliminar">
+                    <input type="reset" value="Limpiar Formulario">
+                </div>
+            </form>
+        </div>
+        <div id="productoIngresado">
+        </div>
+        <div id="mostrarTodos">
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="main.js"></script>
+</body>
+<!--FIN BODY-->
+
+</html>
